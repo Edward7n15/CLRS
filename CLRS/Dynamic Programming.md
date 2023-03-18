@@ -1,0 +1,56 @@
+chapter 15 p. 359 - 397
+
+---
+
+- like Divide & Conquer
+	- combining the solution to subproblems
+- but DP applies when subproblems ==overlap==
+	- subproblems ==shares== sub-subproblems
+	- D&C will be less efficient since it does extra work
+
+DP solves each subproblem just once and then saves its anser in a table.
+>[!info]
+>Think about JVM
+
+---
+## In optimazation problems
+
+a problem can hava many possible solutions, and each solution has a value. We wish to find the ==optimal value== instead of ==optimal solution== since there may be several solutions that achieve the same value.
+
+---
+## Four steps to develop a DP
+
+1. Characterize the structure of an optimal solution
+2. Recursively define the value of an optimal solution
+3. Compute the value of an optimal solution, typically in a bottom-up fashion
+4. Construct an optimal solution from computed information
+
+>[!info]
+>Steps 1-3 form the basis of a DP solution to a problem
+>
+>If we need only the ==value== of an optimal solution, and not the ==solution== itself, then we can omit step 4
+
+---
+## Examples
+---
+### Rod cutting
+
+>[!info]
+>given
+>- a rod of length $n$ inches in total
+>- price table
+>	- length $i=1,2,...,n$
+>	- price $p_i$
+>
+| length $i$           | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
+| ----------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| price $p_i$ | 1   | 5   | 8   | 9   | 10  | 17  | 17  | 20  | 24  | 30 |
+>
+>return
+>-  revenue $r_n$
+
+For some $1\le k\le n$, we have $n=\sum_{j=1}^k i_j$ where $k$ is the number of pieces, and $i$ is the ==distance== between two pieces.
+
+Thus, $r_n=\sum_{j=1}^k p_{i_j}$ 
+
+
