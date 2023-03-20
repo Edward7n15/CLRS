@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "100464932c40ca55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Divide & Conquer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "8c7878b9cedd86f6",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Greedy Method.md",
+                "file": "Divide & Conquer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Greedy Method.md",
+                "file": "Divide & Conquer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Greedy Method.md"
+                "file": "Divide & Conquer.md"
               }
             }
           }
@@ -148,10 +161,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6cd3bdf79773f367",
+  "active": "100464932c40ca55",
   "lastOpenFiles": [
     "Dynamic Programming.md",
     "Greedy Method.md",
+    "Divide & Conquer.md",
+    "未命名",
     "未命名.canvas"
   ]
 }

@@ -1,5 +1,5 @@
 chapter 16* p. 414 - 446
-[[Dynamic Programming#]]
+[[Dynamic Programming]] [[Divide & Conquer]]
 
 ---
 GM makes a ==local optimal choice== in the hope that this choice will lead to a ==globally optimal solution==. It will ==not== always yield optimal solution.
@@ -253,4 +253,34 @@ which we define as the ==cost== for the tree T
 
 ### constructing a Huffman code
 
-Huffman invented a GA that constructs an optimal prefix code called a Huffman code. 
+	Huffman invented a GA that constructs an optimal prefix code called a Huffman code. 
+
+Given Q is a min-priority queue keyed on the freq attribute, we have
+
+Huffman(C)
+	n = |C|
+	Q = C
+	for i = 1 to n-1
+		allocate a new node z
+		z.left = x = Extract-min(Q)
+		z.right = y = Extract-min(Q)
+		z.freq = x.freq + y.freq
+		Insert(Q, z)
+	return Extract-min(Q)
+
+This procedure repeatedly 
+1. fetch the two characters with the lowest key value
+2. put them under a new node whose value is the sum of its children
+3. insert the new node z into the queue, so this node will be compared with other nodes in the next round
+
+Every round, the length of the queue decreases 1. Eventually, only one node will be left and all the others have been integrated. Return the node as the root of the tree.
+
+### Correctness
+
+Lemma 16.2
+	Let C be an alphabet in which each character c in C has frequency c.freq. Let x and y be two characters in C having the lowest frequencies. Then there exists an optimal prefix code for C in which the codewords for x and y have the same length and differ only in the last bit.
+
+This lemma shows that ==the greedy-choice property holds.==
+
+-- incomplete --
+
