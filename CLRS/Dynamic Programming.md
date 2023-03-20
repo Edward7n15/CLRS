@@ -53,4 +53,22 @@ For some $1\le k\le n$, we have $n=\sum_{j=1}^k i_j$ where $k$ is the number of 
 
 Thus, $r_n=\sum_{j=1}^k p_{i_j}$ 
 
+>[!info]
+>Here are some optimal values:
+>
+>$r_1$ = 1   from 1 = 1 
+>$r_2$ = 5   from 2 = 2
+>$r_3$ = 8   from 3 = 3  
+>$r_4$ = 10 from 4 = 2+2 
+>$r_5$ = 13 from 5 = 2+3
+>$r_6$ = 17 from 6 = 6
+>$r_7$ = 18 from 7 = 1+6 or 2+2+3
+>$r_8$ = 22 from 8 = 2+6
+>$r_9$ = 25 from 9 = 3+6
+>$r_{10}$ = 30 from 10 = 10
+>
+>Generally:
+>$r_n=max(p_n,r_1+r_{n-1},r_2+r_{n-2},...,r_{n-1}+r_1)$
+
+
 

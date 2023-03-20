@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "47260d4cf5101172",
+        "id": "7249e13ef503bd3f",
         "type": "tabs",
         "children": [
           {
-            "id": "d44b35c5ce0a3db6",
+            "id": "6cd3bdf79773f367",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dynamic Programming.md",
+                "file": "Greedy Method.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dynamic Programming.md",
+                "file": "Greedy Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dynamic Programming.md",
+                "file": "Greedy Method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dynamic Programming.md"
+                "file": "Greedy Method.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -143,13 +144,14 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d44b35c5ce0a3db6",
+  "active": "6cd3bdf79773f367",
   "lastOpenFiles": [
-    "Greedy Method.md",
     "Dynamic Programming.md",
+    "Greedy Method.md",
     "未命名.canvas"
   ]
 }
