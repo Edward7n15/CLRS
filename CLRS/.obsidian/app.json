@@ -5,6 +5,9 @@
     "CMPUT",
     "codeword",
     "codewords",
-    "Strassen"
-  ]
+    "Strassen",
+    "submatrices",
+    "evelate"
+  ],
+  "alwaysUpdateLinks": true
 }
